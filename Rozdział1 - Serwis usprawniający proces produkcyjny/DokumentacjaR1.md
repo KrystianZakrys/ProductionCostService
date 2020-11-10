@@ -36,6 +36,7 @@ Tworzymy aplikacje do obliczania kosztów produkcji autonomicznych czołgów bez
 - CENA w dolarach
 - OPIS 
 - KOD
+- nazwa
 
 **Czołg**:
 
