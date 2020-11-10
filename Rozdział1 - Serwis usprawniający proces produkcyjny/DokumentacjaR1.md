@@ -22,14 +22,28 @@ Jednostki cena: dolar waga w kilogramach.
 
 Chcemy mieć możliwość dodawania, edytowania, pobierania, usuwania informacji o modułach. 
 
-Dodatkowo zapytania odnośnie wyszukiwanych urządzeń (kombinacji powyższych) będą odkładane w bazie danych. (bez sens bo co jeżeli cena transportu lub cena godziny pracy wzrośnie lub zmaleje i zmieni się koszt? i tak trzeba na nowo obliczać i aktualizować wpis dla danego urządzenia :D ) 
+Dodatkowo zapytania odnośnie wyszukiwanych urządzeń (kombinacji powyższych) będą odkładane w bazie danych. (bezsens bo co jeżeli cena transportu lub cena godziny pracy wzrośnie lub zmaleje i zmieni się koszt? i tak trzeba na nowo obliczać i aktualizować wpis dla danego urządzenia :D ) 
 
-Ogólny opis Mój:
+**Ogólny opis Mój:**
 
 Tworzymy aplikacje do obliczania kosztów produkcji autonomicznych czołgów bezzałogowych.
 
-Czołg może składać się z 1-7 modułów. Każdy moduł ma swoją z góry określoną cenę oraz czas trwania montażu. Fabryki produkujące te czołgi znajdują się w 5 miastach w Polsce, w których stawki pracownika na stanowisku montażysty są różne. Dla każdego miasta, koszt trasportu modułu z zewnętrznej fabryki w innym mieście (każdy moduł może pochodzić z innej fabryki w innym mieście i kraju) jest inny. Dodatkowo do kosztów produkcji dodawane jest 30% sumy wszystkich wymienionych kosztów.
+**Czołg** może składać się z 1-7 **modułów**. Każdy **moduł** ma swoją z góry określoną cenę oraz czas trwania montażu. **Fabryki** produkujące te czołgi znajdują się w 5 miastach w Polsce, w których stawki pracownika na stanowisku montażysty są różne. Dla każdego miasta, **koszt transportu** modułu z **zewnętrznej fabryki** w innym mieście (każdy moduł może pochodzić z innej fabryki w innym mieście i kraju) jest inny. Dodatkowo do kosztów produkcji dodawane jest 30% sumy wszystkich wymienionych kosztów.
 
-Moduł powinien posiadać następujące informacje:
+**Moduł** powinien posiadać następujące informacje:
 
 - WAGA w kilogramach
+- CENA w dolarach
+- OPIS 
+- KOD
+- ZDJĘCIE
+
+**Czołg**:
+
+- Nazwa
+- Kod
+- Opis
+- Moduły
+
+Elementy zaznaczone pogrubieniem to encje które powinny posiadać wszystkie operacje CRUD.
+
