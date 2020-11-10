@@ -47,3 +47,30 @@ Tworzymy aplikacje do obliczania kosztów produkcji autonomicznych czołgów bez
 
 Elementy zaznaczone pogrubieniem to encje które powinny posiadać wszystkie operacje CRUD.
 
+
+
+**IMPROWIZACJA:** Dodatkowo  system ma umożliwiać autoryzację.
+
+Będa istniał 3 role: Administrator, Manager oraz Pracownik produkcji
+
+Administrator ma dostęp do całego systemu. SUPERADMIN.
+
+Manager ma dostęp do danych danej fabryki lub linii produkcyjnej. Powiedzmy, że dana fabryka ma 1-3 linii produkcyjnych, gdzie każda linia może produkować 1 rodzaj czołgu. Manager zarządza daną linią produkcyjną. Ma dostęp do danych związanych z produkcją danego czołgu na tej linii produkcyjnej, pracowników produkcji itd.
+
+Pracownicy produkcji mają dostęp do dokumentacji technicznej związanej z montażem danego modułu do danego czołgu.
+
+FUNKCJONALNOŚĆ DO DALSZEJ GŁĘBSZEJ ANALIZY... Teraz mi sie nie chce... pora na coś z tech lub UI/UX
+
+
+
+
+
+Stack technologiczny:
+
+- .NET Core Wep Api
+- Angular 
+- Swagger
+- CQRS & DDD
+- nUnit
+- Code First IDK if EF or nHibernate
+- Logger
