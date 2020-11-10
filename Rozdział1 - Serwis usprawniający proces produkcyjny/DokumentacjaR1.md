@@ -36,7 +36,6 @@ Tworzymy aplikacje do obliczania kosztów produkcji autonomicznych czołgów bez
 - CENA w dolarach
 - OPIS 
 - KOD
-- ZDJĘCIE
 
 **Czołg**:
 
@@ -63,14 +62,16 @@ FUNKCJONALNOŚĆ DO DALSZEJ GŁĘBSZEJ ANALIZY... Teraz mi sie nie chce... pora 
 
 
 
-
-
 Stack technologiczny:
 
 - .NET Core Wep Api
 - Angular 
 - Swagger
-- CQRS & DDD
+- CQRS (MediatR) & DDD & Specification
 - nUnit
 - Code First IDK if EF or nHibernate
 - Logger
+- Settings
+
+
+
